@@ -28,8 +28,8 @@ public class Task2 {
         printNumbers(array);
     }
     private static void printNumbers(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+        for (int j : array) {
+            System.out.println(j);
         }
     }
 }
